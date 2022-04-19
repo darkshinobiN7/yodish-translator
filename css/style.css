@@ -1,0 +1,66 @@
+/******************************************
+/* CSS
+/*******************************************/
+
+/* Box Model Hack */
+*{
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+/******************************************
+/* LAYOUT
+/*******************************************/
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  font-family: 'Roboto', sans-serif;
+  background: url("https://mcdn.wallpapersafari.com/medium/63/39/Z81To7.jpg") no-repeat center center;
+  background-size: cover;
+}
+.main {
+  background-color: #000000d0;
+  color: white;
+  padding: 2em;
+  border-radius: 30px;
+  width: 100%;
+  max-width: 450px;
+  margin: 1em;
+}
+button {
+  margin: 0.2em;
+  border: none;
+  border-radius: 10px;
+  width: 100%;
+  height: 1.8em;
+  background-color: #7c7c7c2b;
+  color: white;
+  cursor: pointer;
+  transition: 0.2s ease-in-out;
+}
+button:hover {
+  background-color: #7c7c7c6b;
+}
+input[type=text] {
+  border: none;
+  outline: none;
+  padding: 0.3em;
+  border-radius: 10px;
+  background-color: #7c7c7c2b;
+  color: white;
+  font-family: inherit;
+}
+
+img{
+  width: 40%;
+}
+
+
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/
